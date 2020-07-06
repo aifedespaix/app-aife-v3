@@ -29,9 +29,10 @@ export default function Header() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div>
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
+          <a href="/glitches/zelda-breath-of-the-wild/epee-legende-3-coeurs">zzz</a>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon/>
           </IconButton>
